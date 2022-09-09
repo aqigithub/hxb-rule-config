@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="com.hxb.rulesConfig.mapper.RulesConfigMapper">
+    <resultMap id="BaseResultMap" type="com.hxb.rulesConfig.entity.RulesConfigPo">
+        <id column="rule_id" property="ruleId" jdbcType="VARCHAR"/>
+        <id column="rule_key" property="ruleKey" jdbcType="VARCHAR"/>
+        <id column="rule_value" property="ruleValue" jdbcType="VARCHAR"/>
+        <id column="rule_remarks" property="ruleRemarks" jdbcType="VARCHAR"/>
+        <id column="rule_desc" property="ruleDesc" jdbcType="VARCHAR"/>
+    </resultMap>
+
+</mapper>
+
+

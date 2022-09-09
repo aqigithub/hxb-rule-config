@@ -1,0 +1,22 @@
+spring:
+  profiles:
+   active: poc_hx
+  application:
+    name: sinodata-poc-rule
+  cloud:
+    nacos:
+      config:
+        server-addr: 39.103.155.89:8848
+        namespace: fae530c6-a3ed-47ce-a256-89a9869e36f5
+        group: DEFAULT_GROUP
+        file-extension: yaml
+        enabled: true
+        refresh-enabled: true
+        extension-configs:
+          - data-id: sinodatapoc-rule.yml
+            refresh: true
+#          - data-id: hxb-rule-config-dev.yml
+#            refresh: true
+
+
+#spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
